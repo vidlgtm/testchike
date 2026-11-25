@@ -1,0 +1,9 @@
+node_modules/
+out/
+.remotion/
+tsconfig.check.json
+__pycache__/
+*.pyc
+_cache/
+projects/*/voice/_*.mp3
+.env

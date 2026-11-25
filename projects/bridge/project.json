@@ -1,0 +1,7 @@
+{
+  "name": "bridge",
+  "title": "The Bridge That Fell for a Song",
+  "format": { "width": 1080, "height": 1920, "fps": 30, "duration_s": 67.5 },
+  "voice": { "engine": "edge", "voice": "en-US-GuyNeural", "rate": "+0%", "whisper_model": "small.en" },
+  "notes": "Reference project. Timings (story.ts, audio/timeline.py) were hand-fitted to the ORIGINAL narration. A different voice drifts out of sync: for a frame-exact bridge render use voice engine 'file' with the original voice.wav, otherwise retime story.ts/timeline.py with tools/words_to_frames.py."
+}
